@@ -5,7 +5,7 @@ h1{
 body{
     font-family: 'PT Serif', serif;
 }
-#name-color{
+.name-color{
     color: orange;
 }
 
@@ -17,13 +17,15 @@ body{
 }
 .half-width img{
     width:100%;
+    margin-top:1%;
 }
 .top-banner{
     background-image:url('images/top-banner.png');
     background-repeat:no-repeat;
 }
 section{
-    height: 500px;;
+    height: 500px;
+    padding-bottom: 170px;
 }
 body{
     margin:0%;
@@ -36,4 +38,36 @@ body{
    color: white;
    font-weight:700;
    
+}
+.dream-area{
+    background-image:url("images/dream-bg.png");
+    background-repeat:no-repeat;
+    background-position:right;
+}
+.single-exprience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius:5px;
+    height:80%;
+    padding:30px 20px;
+    background-color: white;
+    
+}
+.exprience-area{
+    background-image:url("images/exp-bg.png");
+    background-repeat:no-repeat;
+    background-position:left;
+    
+}
+#full-stack{
+    border-left:7px solid;
+    border-image: linear-gradient(orange,tomato);
+    border-image-slice:1;
+}
+#bal-stack{
+    border-left:7px solid;
+    border-image: linear-gradient(rgb(98, 87, 182),rgb(123, 91, 85));
+    border-image-slice:1;
+}
+footer{
+    text-align:center;
 }
